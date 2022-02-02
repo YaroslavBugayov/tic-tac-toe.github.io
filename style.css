@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #212121;
+    text-align: center;
+}
+
+.cell1 {
+    border-start-start-radius: 10px;
+}
+
+.cell3 {
+    border-start-end-radius: 10px;
+}
+
+.cell7 {
+    border-end-start-radius: 10px;
+}
+
+.cell9 {
+    border-end-end-radius: 10px;
+}
+
+img {
+    margin: 10px;
+}
